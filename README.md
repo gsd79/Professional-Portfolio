@@ -1,8 +1,9 @@
 # gsd_portfolio
 
-## Introduction
-## Languages Used
+## Purpose
+## Built With
 *HTML
 *CSS
+## Website
 
-## Contributions
+## Contributiong
