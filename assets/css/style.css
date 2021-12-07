@@ -21,12 +21,28 @@ header {
     background-color: var(--secondary);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
-    padding: 20px 35px;
+    padding: 10px 35px;
     position:-webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 9999;}
+
+header .intro {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+header img{
+    width: 50px;
+    height:50px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-right: 10px;
+}
 
 header h1 {
     font-weight:bold;
@@ -71,3 +87,36 @@ header nav ul li a:hover, header a:hover {
     
 }
 
+.hero {
+    background-image:url("../css/images/port-hero.jpg");
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    border: 10px solid white;
+    display: flex;
+    margin: 20px;
+}
+
+.hero h1 {
+    font: 25px Arial, Helvetica, sans-serif;
+    color: rosybrown;
+    background-color: var(--secondary);
+    padding: 10px;
+    margin-top: 200px;
+    margin-left: 912.6px;
+    margin-bottom: 50px;
+}
+
+.aboutme {
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    color: var(--quaternary);
+    padding: 40px;
+}
+
+.aboutme h2 {
+    color: var(--secondary);
+    font: 30px arial, helvetica, sans-serif;
+    font-weight: bold;
+}
