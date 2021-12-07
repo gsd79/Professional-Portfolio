@@ -6,4 +6,4 @@
 *CSS
 ## Website
 
-## Contributiong
+## Contribution
