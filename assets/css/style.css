@@ -18,16 +18,14 @@ body {
 }
 
 header {
-    background-color: var(--secondary);
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     padding: 10px 35px;
-    position:-webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 9999;}
+    
+  }
 
 header .intro {
 display: flex;
@@ -42,6 +40,7 @@ header img{
     border-radius: 50%;
     border: 3px solid white;
     margin-right: 10px;
+    
 }
 
 header h1 {
@@ -68,6 +67,7 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    margin-right: 10px;
     
 }
 header nav a{
@@ -83,40 +83,84 @@ header nav ul li a {
 }
 
 header nav ul li a:hover, header a:hover {
-    color: var(--primary);    
+    color: var(--secondary);    
     
 }
 
-.hero {
-    background-image:url("../css/images/port-hero.jpg");
-    background-size: cover;
-    background-position: 80%;
-    background-attachment: fixed;
-    border: 10px solid white;
-    display: flex;
-    margin: 20px;
+
+
+.hero img {
+    width: 85%;
+    height: 300px;
+    display: block;
+    box-sizing: content-box;
+    object-fit: cover;
+    border: 10px double white;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #888888;
 }
 
-.hero h1 {
-    font: 25px Arial, Helvetica, sans-serif;
-    color: rosybrown;
-    background-color: var(--secondary);
-    padding: 10px;
-    margin-top: 200px;
-    margin-left: 912.6px;
-    margin-bottom: 50px;
-}
 
-.aboutme {
-    width: 80%;
-    margin: 0 auto;
+.contentblurb {
+    width: 87%;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 10px double white;
     text-align: justify;
-    color: var(--quaternary);
-    padding: 40px;
+    color: var(--primary);
+    padding: 20px 40px;
+    background-color: var(--tertiary);
+    box-shadow: 5px 10px 18px #888888;
 }
 
-.aboutme h2 {
-    color: var(--secondary);
+.contentblurb h2, .projects h2 {
+    color: var(--quinary);
     font: 30px arial, helvetica, sans-serif;
     font-weight: bold;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 0px 2px grey;
+    margin-bottom: 15px;
+}
+
+
+.flex img:first-child{
+    flex:2 70%;
+    width: 500px;
+    height: 300px;
+    
+}
+
+.flex img{
+    width: 500px;
+    height: 300px;
+    flex: 1;
+    border: 5px solid white;
+    margin: 5px;
+    object-fit: cover;
+}
+
+.flex{ 
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px){
+
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    
 }
