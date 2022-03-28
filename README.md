@@ -9,7 +9,7 @@ The accompanying application is intended to act as a living document for the pur
 *CSS
 
 ## Website
-https://gsd79.github.io/gsd_portfolio/
+https://gsd79.github.io/Professional-Portfolio/
 
 ## Contribution
 Made by Grace Dringenburg
